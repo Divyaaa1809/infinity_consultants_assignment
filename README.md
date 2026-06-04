@@ -1,16 +1,79 @@
 # infinity_consultants_assignment
+# Spend Summary App
 
-A new Flutter project.
+A Flutter application that displays:
 
-## Getting Started
+* Monthly spend summary with percentage change
+* Category-wise spending overview
+* Recent transactions list
+* Floating Action Button (FAB)
 
-This project is a starting point for a Flutter application.
+## Architecture
 
-A few resources to get you started if this is your first Flutter project:
+The application follows:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Clean Architecture
+* MVVM Pattern
+* Riverpod for State Management
+* SOLID Principles
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Project Structure
+
+* Data Layer
+
+  * Data Sources
+  * Repository Implementations
+
+* Domain Layer
+
+  * Entities
+  * Repository Contracts
+  * Use Cases
+
+* Presentation Layer
+
+  * Views
+  * ViewModels
+  * Riverpod Providers
+  * Reusable Widgets
+
+## Features
+
+* Spend Summary Header Card
+* Horizontal Category Scroller
+* Scrollable Recent Transactions List
+* Responsive UI
+* Material 3 Design
+* Portrait Mode Support
+
+## Screenshots
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+## AI Tools Used
+
+### GitHub Copilot
+
+Used for:
+
+* Code completion
+* Widget scaffolding
+* Reducing repetitive coding effort
+
+### ChatGPT
+
+Used for:
+
+* Architecture planning
+* Clean Architecture and MVVM structure guidance
+* Riverpod implementation suggestions
+* UI/UX improvement ideas
+* Code review and optimization discussions
+
+All generated suggestions were reviewed, modified, and integrated manually during development.
+
+
