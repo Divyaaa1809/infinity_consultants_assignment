@@ -54,6 +54,7 @@ The application follows:
 
 ![alt text](image-2.png)
 
+
 ## AI Tools Used
 
 ### GitHub Copilot
